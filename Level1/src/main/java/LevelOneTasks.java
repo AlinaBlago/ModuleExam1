@@ -26,5 +26,12 @@ public class LevelOneTasks {
         return (lengthOfVector == lengthOfKnightVector) ? "yes" : "no";
     }
 
+    public static double perimeterOfTriangle(int aX, int aY, int bX, int bY, int cX, int cY){
+        double lengthAB = Math.sqrt(Math.pow(bX - aX, 2) + Math.pow(bY - aY, 2));
+        double lengthAC = Math.sqrt(Math.pow(cX - aX, 2) + Math.pow(cY - aY, 2));
+        double lengthBC = Math.sqrt(Math.pow(cX - bX, 2) + Math.pow(cY - bY, 2));
+        double perimeter = lengthAB + lengthAC + lengthBC;
+        return perimeter;
+    }
 
 }
