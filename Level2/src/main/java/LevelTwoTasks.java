@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.Stack;
 
 public class LevelTwoTasks {
-    public static String IfStringAllowable(String checkableString){
+    public static String ifStringAllowable(String checkableString){
         System.out.println("\nEntered string:" +checkableString);
 
         if(checkableString.length() == 0) return "yes";
@@ -51,4 +51,20 @@ public class LevelTwoTasks {
 
         return openBrackets.size() == 0 ? "yes" : "no";
     }
+
+    public static int maxLengthOfTreeNode(ArrayList<Integer> values){
+
+        if(values.size() == 0){
+            return 0;
+        }
+
+        BinaryTree tree = new BinaryTree();
+
+        for(int value : values){
+            tree.add(value);
+        }
+
+        return tree.getHeight();
+    }
+
 }

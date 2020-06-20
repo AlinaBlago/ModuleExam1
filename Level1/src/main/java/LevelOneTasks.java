@@ -13,7 +13,7 @@ public class LevelOneTasks {
     }
 
 
-    public static String stepKnightfInfinityDeck(int knightX , int knightY , int pointX , int pointY){
+    public static String stepKnightInfinityDeck(int knightX , int knightY , int pointX , int pointY){
 
         int knightXVector = knightX - (knightX + 2);
         int knightYVector = knightY - (knightY + 1);

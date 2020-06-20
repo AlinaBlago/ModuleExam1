@@ -13,7 +13,25 @@
         <module>Level2</module>
         <module>Level3</module>
         <module>MainModule</module>
+
     </modules>
+
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+
+    </dependencies>>
 
     <build>
         <plugins>
@@ -27,6 +45,7 @@
             </plugin>
         </plugins>
     </build>
+
 
 
 </project>
