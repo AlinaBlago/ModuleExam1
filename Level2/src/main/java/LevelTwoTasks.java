@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class LevelTwoTasks {
     public static String ifStringAllowable(String checkableString){
-        System.out.println("\nEntered string:" +checkableString);
+        System.out.println("Entered string:\n" +checkableString);
 
         if(checkableString.length() == 0) return "yes";
 
